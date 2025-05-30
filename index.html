@@ -1,67 +1,124 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MAXCE</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff4f6;
       color: #333;
     }
     header {
-      background-color: #003366;
-      color: white;
-      padding: 30px 20px;
+      background: #ffdde1;
+      color: #3a3a3a;
+      padding: 60px 20px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      text-transform: uppercase;
+      color: #d63384;
     }
-    h1, h2 {
-      color: #003366;
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin: 40px auto;
+      max-width: 1200px;
+      padding: 20px;
+    }
+    .section-box {
+      background: white;
+      border: 2px solid #f8c2d0;
+      border-radius: 12px;
+      padding: 20px;
+      flex: 1 1 calc(20% - 40px);
+      min-width: 220px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .section-box img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .section-box h3 {
+      color: #d63384;
+      margin: 10px 0 5px 0;
+      font-size: 1.1em;
     }
     .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+      background: #ffe3ed;
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 3px solid #d63384;
+    }
+    .contact a {
+      color: #c2185b;
+      font-weight: bold;
+      text-decoration: none;
     }
     footer {
-      background-color: #003366;
-      color: white;
+      background: #fce4ec;
+      color: #555;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>MAXCE</h1>
+    <p>Innovation & Performance Administrative</p>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
+  <div class="section-container">
+    <div class="section-box">
+      <img src="https://images.unsplash.com/photo-1527212986666-4d2d47a80d5f?q=80&w=2670&auto=format&fit=crop" alt="Bureau">
+      <h3>Gestion de siège</h3>
+      <p>Optimisation des fonctions centrales pour entreprises modernes.</p>
     </div>
-  </section>
+    <div class="section-box">
+      <img src="https://images.unsplash.com/photo-1542353436-312f0e1f67ff?q=80&w=2742&auto=format&fit=crop" alt="Organisation">
+      <h3>Organisation efficace</h3>
+      <p>Méthodes agiles & pratiques pour une meilleure productivité.</p>
+    </div>
+    <div class="section-box">
+      <img src="https://images.unsplash.com/photo-1528543606781-2f6e6857f318?q=80&w=2001&auto=format&fit=crop" alt="Performance">
+      <h3>Suivi & Contrôle</h3>
+      <p>Des outils et tableaux de bord pour piloter vos projets.</p>
+    </div>
+    <div class="section-box">
+      <img src="https://images.unsplash.com/photo-1493382051629-7eb03ec93ea2?q=80&w=2670&auto=format&fit=crop" alt="Outils digitaux">
+      <h3>Digitalisation</h3>
+      <p>Transformation numérique et solutions cloud sur mesure.</p>
+    </div>
+    <div class="section-box">
+      <img src="https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?q=80&w=2670&auto=format&fit=crop" alt="Accompagnement">
+      <h3>Accompagnement dédié</h3>
+      <p>Service client proactif et personnalisé pour chaque partenaire.</p>
+    </div>
+  </div>
+
+  <div class="contact">
+    <h2>Contact</h2>
+    <p>Email : <a href="mailto:admin@maxcefr.shop">admin@maxcefr.shop</a></p>
+    <p>Téléphone : <a href="tel:+33673919474">+33 6 73 91 94 74</a></p>
+    <p>Ville : Brotteaux, Lyon</p>
+  </div>
 
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    &copy; 2025 MAXCE — Tous droits réservés.
   </footer>
+
 </body>
 </html>
